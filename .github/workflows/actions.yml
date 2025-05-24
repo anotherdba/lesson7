@@ -9,7 +9,6 @@ jobs:
       - name: list files
         run: ls
       - name: checkout repo
-      - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: list files
         run: ls
